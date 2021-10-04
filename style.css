@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+body{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+}
+.about-me{
+    
+}
+.about-me > .photo{
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 250px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 15px #fff inset
+        
+}
+.about-me{
+     
+}
+.about-me > h1{
+    text-align: center;
+    margin: 0 0 12px 0;
+    font-family: 'Yaldevi', sans-serif;
+}
+.about-me > p{
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 24px
+}
+.about-me > a.button{
+    position: relative;
+    top: 0;
+    display: inline-block;
+    
+    background: #fff;
+    text-decoration: none;
+    color: #f16;
+    padding: 9px 24px;
+    border-radius: 96px;
+    text-transform: uppercase;
+    border: 3px solid #f16;
+    transition: all .3s ease-in 0s;
+    
+    font-family: 'Yaldevi', sans-serif;
+    
+}
+a.button:hover{
+    background: #f16;
+    color: #fff;
+    
+    top: -12px;
+}
