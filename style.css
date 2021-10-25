@@ -7,7 +7,60 @@
 body{
     text-align: center;
     font-family: 'Yaldevi', sans-serif;
+    }
+
+header {
+    background-color: rosybrown;
+    overflow: auto;
 }
+header > div {
+    max-width: 960px; 
+    margin: 0 auto;
+}
+header > div > a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+}
+header > div > a:hover {
+   color: #fff 
+}
+header > div > a > img {
+    width: 48px;
+    vertical-align: middle;
+}
+header > div > a > strong {
+    font: 400 24px/48px arial;
+    vertical-align: middle;
+}
+header > div > nav {
+  float: right;
+    padding: 12px;
+}
+header > div > nav > a {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font: 400 18px/48px araial;
+    vertical-align: middle;
+}
+header > div > nav > a:hover {
+    color: #fff;
+}
+header > div > nav > a.cart {
+    
+}
+header > div > nav > a.cart > img {
+    width: 24px;
+    vertical-align: middle;
+}
+
+
+
+
 .about-me{
     
 }
@@ -43,18 +96,18 @@ body{
     
     background: #fff;
     text-decoration: none;
-    color: #f16;
+    color: rosybrown;
     padding: 9px 24px;
     border-radius: 96px;
     text-transform: uppercase;
-    border: 3px solid #f16;
+    border: 3px solid brown;
     transition: all .3s ease-in 0s;
     
     font-family: 'Yaldevi', sans-serif;
     
 }
 a.button:hover{
-    background: #f16;
+    background: #BC8F8F;
     color: #fff;
     
     top: -12px;
