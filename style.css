@@ -10,12 +10,13 @@ body{
     }
 
 header {
-    background-color: rosybrown;
+    background-color: white;
     overflow: auto;
 }
 header > div {
     max-width: 960px; 
     margin: 0 auto;
+    overflow: hidden;
 }
 header > div > a {
     float: left;
@@ -27,7 +28,7 @@ header > div > a:hover {
    color: #fff 
 }
 header > div > a > img {
-    width: 48px;
+    width: 270px;
     vertical-align: middle;
 }
 header > div > a > strong {
@@ -48,7 +49,7 @@ header > div > nav > a {
     vertical-align: middle;
 }
 header > div > nav > a:hover {
-    color: #fff;
+    color: rgba(149, 56, 82, 0.75);
 }
 header > div > nav > a.cart {
     
@@ -57,6 +58,95 @@ header > div > nav > a.cart > img {
     width: 24px;
     vertical-align: middle;
 }
+
+
+
+
+
+
+footer {
+    background-color: whitesmoke;
+    position: relative;
+    padding: 50px;
+}
+footer > div {
+    overflow: hidden;
+}
+footer > div > a {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+footer > div >a >img{
+    width: 250px;
+}
+
+footer > div > section{
+    float: left;
+    width: 33.33%
+    
+}
+
+footer > div > section > strong{
+    display:block;
+    font-family: open-sans; 
+    font-weight: 1000;
+    color: navy
+    
+}
+
+footer > div > section > a{
+    display:block;
+    font-family: open-sans;
+    font-weight:200;
+    color: black
+}
+footer > div > section > a >img{
+    width: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
