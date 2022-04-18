@@ -126,6 +126,37 @@ header > div > nav > a.cart > img {
 
 
 
+
+ul.product-list {
+    
+}
+ul.product-list > li {
+    
+}
+ul.product-list > li > a{
+    
+}
+ul.product-list > li >img {
+    
+}
+ul.product-list > li > h3 {
+    
+}
+ul.product-list > li > spen {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: whitesmoke;
     position: relative;
