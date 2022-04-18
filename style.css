@@ -127,22 +127,29 @@ header > div > nav > a.cart > img {
 
 
 
-ul.product-list {
+.product-list {
     
 }
-ul.product-list > li {
+.product-list > ul >  li {
     
 }
-ul.product-list > li > a{
+.product-list > ul > li > a{
     
 }
-ul.product-list > li >img {
+.product-list > ul > li > a > img {
+    height:150px;
     
 }
-ul.product-list > li > h3 {
+.product-list > ul > li > a > h3 {
     
 }
-ul.product-list > li > spen {
+.product-list > ul > li > a > span {
+    
+}
+
+
+
+.product > details {
     
 }
 
